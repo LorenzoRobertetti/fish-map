@@ -42,6 +42,7 @@
         fetch('locations.json')
             .then(response => response.json())
             .then(data => {
+                console.log("Data loaded:", data); // Debugging log
                 var markerCluster = L.markerClusterGroup();
                 data.forEach(location => {
                     if (location.lat && location.lon) {
@@ -57,12 +58,16 @@
                                 Notes: ${location.notes}
                             </div>
                         `;
+                        console.log("Creating marker for:", location.name); // Debugging log
                         const marker = L.marker([location.lat, location.lon], { icon: getIcon(location.photo) })
                             .bindPopup(popupContent);
                         markerCluster.addLayer(marker);
                     }
                 });
                 map.addLayer(markerCluster);
+            })
+            .catch(error => {
+                console.error("Error loading JSON data:", error); // Debugging log for errors
             });
     </script>
 </body>
