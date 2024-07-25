@@ -5,13 +5,20 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
     <style>
         #map { height: 600px; width: 100%; }
+        .popup-content img {
+            max-width: 100px;
+            height: auto;
+        }
     </style>
 </head>
 <body>
     <div id="map"></div>
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
     <script>
         // Initialize the map
         var map = L.map('map').setView([0, 0], 2);
@@ -21,16 +28,41 @@
             maxZoom: 18,
         }).addTo(map);
 
+        // Function to create custom icons
+        function getIcon(iconUrl) {
+            return L.icon({
+                iconUrl: iconUrl,
+                iconSize: [32, 32], // size of the icon
+                iconAnchor: [16, 32], // point of the icon which will correspond to marker's location
+                popupAnchor: [0, -32] // point from which the popup should open relative to the iconAnchor
+            });
+        }
+
         // Load locations from the JSON file
         fetch('locations.json')
             .then(response => response.json())
             .then(data => {
+                var markerCluster = L.markerClusterGroup();
                 data.forEach(location => {
-                    // Assuming location is a string "latitude,longitude"
-                    const [lat, lon] = location.location.split(',');
-                    L.marker([lat, lon]).addTo(map)
-                        .bindPopup(location.name);
+                    if (location.lat && location.lon) {
+                        const popupContent = `
+                            <div class="popup-content">
+                                <b>${location.name}</b><br>
+                                <img src="${location.photo}" alt="${location.name}"><br>
+                                <i>${location.scientific_name}</i><br>
+                                Beauty: ${location.beauty}<br>
+                                Rarity: ${location.rarity}<br>
+                                Date: ${location.date}<br>
+                                Location: ${location.location}<br>
+                                Notes: ${location.notes}
+                            </div>
+                        `;
+                        const marker = L.marker([location.lat, location.lon], { icon: getIcon(location.photo) })
+                            .bindPopup(popupContent);
+                        markerCluster.addLayer(marker);
+                    }
                 });
+                map.addLayer(markerCluster);
             });
     </script>
 </body>

@@ -1,6 +1,27 @@
 [
-    { "name": "Location 1", "location": "51.505,-0.09" },
-    { "name": "Location 2", "location": "48.8566,2.3522" },
-    { "name": "Location 3", "location": "40.7128,-74.0060" }
+    {
+        "name": "Pesce pappagallo femmina",
+        "scientific_name": "Sparisoma cretense femalle",
+        "beauty": "⭐",
+        "rarity": "💎",
+        "location": "Lampedusa",
+        "lat": 35.496456,
+        "lon": 12.608565,
+        "date": "2024-06-12",
+        "notes": "",
+        "photo": "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F524b2bc3-917a-4d6d-8d15-464f50128018%2F2c1269c9-7c73-4eb3-984a-e0db5e1a04c0%2Fpesce_civetta.png?id=a3dc4abe-f007-4f9d-8a4a-4545dcc7b511&table=block&spaceId=524b2bc3-917a-4d6d-8d15-464f50128018&width=2000&userId=b15647a3-56b9-4faf-a475-6da60e2b6b4f&cache=v2"
+    },
+    {
+        "name": "Pesce pappagallo maschio",
+        "scientific_name": "Sparisoma cretense male",
+        "beauty": "⭐",
+        "rarity": "💎",
+        "location": "Lampedusa",
+        "lat": 35.496456,
+        "lon": 12.608565,
+        "date": "2024-06-12",
+        "notes": "",
+        "photo": "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F524b2bc3-917a-4d6d-8d15-464f50128018%2Fae79fc08-6f33-415e-bd89-6dda12ee25d0%2FThalassoma_pavo_male.jpg?id=69eac5c9-74c6-479b-aeef-9910b5b08401&table=block&spaceId=524b2bc3-917a-4d6d-8d15-464f50128018&width=2000&userId=b15647a3-56b9-4faf-a475-6da60e2b6b4f&cache=v2"
+    }
 ]
 
