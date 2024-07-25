@@ -2,26 +2,85 @@
     {
         "name": "Pesce pappagallo femmina",
         "scientific_name": "Sparisoma cretense femalle",
-        "beauty": "⭐",
-        "rarity": "💎",
+        "beauty": "\u2b50",
+        "rarity": "\ud83d\udc8e",
         "location": "Lampedusa",
-        "lat": 35.496456,
-        "lon": 12.608565,
+        "lat": 35.511134150000004,
+        "lon": 12.59629135962961,
         "date": "2024-06-12",
         "notes": "",
-        "photo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/524b2bc3-917a-4d6d-8d15-464f50128018/ae79fc08-6f33-415e-bd89-6dda12ee25d0/Thalassoma_pavo_male.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240725%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240725T105825Z&X-Amz-Expires=3600&X-Amz-Signature=bd3325d6a4920eee7f92498c3489370b6e3d745b0c527b5d8eb602da13ca8459&X-Amz-SignedHeaders=host&x-id=GetObject"
+        "photo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/524b2bc3-917a-4d6d-8d15-464f50128018/7fc84fec-cfd0-497f-9537-9d5220c3a3ff/Sparisoma_cretense_femelle.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240725%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240725T141644Z&X-Amz-Expires=3600&X-Amz-Signature=a930ead7d1e70ea90210ff26cca431450bba29b341ab16da18f63e4898c4f247&X-Amz-SignedHeaders=host&x-id=GetObject"
     },
     {
         "name": "Pesce pappagallo maschio",
         "scientific_name": "Sparisoma cretense male",
-        "beauty": "⭐",
-        "rarity": "💎",
+        "beauty": "\u2b50",
+        "rarity": "\ud83d\udc8e",
         "location": "Lampedusa",
-        "lat": 35.496456,
-        "lon": 12.608565,
+        "lat": 35.511134150000004,
+        "lon": 12.59629135962961,
         "date": "2024-06-12",
         "notes": "",
-        "photo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/524b2bc3-917a-4d6d-8d15-464f50128018/ae79fc08-6f33-415e-bd89-6dda12ee25d0/Thalassoma_pavo_male.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240725%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240725T105825Z&X-Amz-Expires=3600&X-Amz-Signature=bd3325d6a4920eee7f92498c3489370b6e3d745b0c527b5d8eb602da13ca8459&X-Amz-SignedHeaders=host&x-id=GetObject"
+        "photo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/524b2bc3-917a-4d6d-8d15-464f50128018/ba3565b5-9bf3-4837-8fc1-ce19bcf08bbe/Sparisoma_cretense_male.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240725%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240725T141644Z&X-Amz-Expires=3600&X-Amz-Signature=a7152e0b4563163d34923a9f5129b9a63f2969627696e05dcf3c5884e1ba7bac&X-Amz-SignedHeaders=host&x-id=GetObject"
+    },
+    {
+        "name": "Castagnola",
+        "scientific_name": "Chromis chromis",
+        "beauty": "\u2b50\u2b50",
+        "rarity": "\ud83d\udc8e",
+        "location": "Lampedusa",
+        "lat": 35.511134150000004,
+        "lon": 12.59629135962961,
+        "date": "2024-06-12",
+        "notes": "",
+        "photo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/524b2bc3-917a-4d6d-8d15-464f50128018/2c0c619c-ba2b-4f06-ae78-926f2dc48f27/Chromis_chromis_2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240725%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240725T141644Z&X-Amz-Expires=3600&X-Amz-Signature=9622670cf06791eb0bdcc3311ab1e4d463e6747afebfa1dae663ab623b0324bc&X-Amz-SignedHeaders=host&x-id=GetObject"
+    },
+    {
+        "name": "Pesce cardinale",
+        "scientific_name": "Apogon imberbis",
+        "beauty": "\u2b50\u2b50\u2b50",
+        "rarity": "\ud83d\udc8e",
+        "location": "Lampedusa",
+        "lat": 35.511134150000004,
+        "lon": 12.59629135962961,
+        "date": "2024-06-12",
+        "notes": "",
+        "photo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/524b2bc3-917a-4d6d-8d15-464f50128018/9082230f-4ca6-4a78-b3d8-1d072d340283/1200px-Apogon_imberbis_side.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240725%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240725T141644Z&X-Amz-Expires=3600&X-Amz-Signature=8fa49118cc2145720dbc51793a1bb654ffb73a0fe460f2ac9ae0ecb160651549&X-Amz-SignedHeaders=host&x-id=GetObject"
+    },
+    {
+        "name": "Pesce civetta",
+        "scientific_name": "Dactylopterus volitans",
+        "beauty": "\u2b50\u2b50",
+        "rarity": "\ud83d\udc8e\ud83d\udc8e",
+        "location": "Lampedusa",
+        "lat": 35.511134150000004,
+        "lon": 12.59629135962961,
+        "date": "2024-06-12",
+        "notes": "",
+        "photo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/524b2bc3-917a-4d6d-8d15-464f50128018/2c1269c9-7c73-4eb3-984a-e0db5e1a04c0/pesce_civetta.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240725%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240725T141644Z&X-Amz-Expires=3600&X-Amz-Signature=75646987be1d94c623ec76fa37fac9bea1b22cb37c6ec3dc8915ee2817ff97cc&X-Amz-SignedHeaders=host&x-id=GetObject"
+    },
+    {
+        "name": "Sciarrano",
+        "scientific_name": "Serranus scriba",
+        "beauty": "\u2b50\u2b50",
+        "rarity": "\ud83d\udc8e",
+        "location": "Lampedusa",
+        "lat": 35.511134150000004,
+        "lon": 12.59629135962961,
+        "date": "2024-06-12",
+        "notes": "",
+        "photo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/524b2bc3-917a-4d6d-8d15-464f50128018/3790012b-2646-470b-9272-8165b4052160/Serranus_scriba.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240725%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240725T141644Z&X-Amz-Expires=3600&X-Amz-Signature=c230bb2be74026e0d5f82e72e20f0d8599f119fd4559faa3618526010455dff7&X-Amz-SignedHeaders=host&x-id=GetObject"
+    },
+    {
+        "name": "Donzella pavonina",
+        "scientific_name": "Thalassoma pavo",
+        "beauty": "\u2b50\u2b50\u2b50",
+        "rarity": "\ud83d\udc8e\ud83d\udc8e",
+        "location": "Lampedusa",
+        "lat": 35.511134150000004,
+        "lon": 12.59629135962961,
+        "date": "2024-06-12",
+        "notes": "",
+        "photo": "https://prod-files-secure.s3.us-west-2.amazonaws.com/524b2bc3-917a-4d6d-8d15-464f50128018/ae79fc08-6f33-415e-bd89-6dda12ee25d0/Thalassoma_pavo_male.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240725%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240725T141644Z&X-Amz-Expires=3600&X-Amz-Signature=309477f7908b54f1af26b92aeae47476cd0bf03e87c6fcc7c78dad398df44e26&X-Amz-SignedHeaders=host&x-id=GetObject"
     }
 ]
-
